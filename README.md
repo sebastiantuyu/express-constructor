@@ -10,11 +10,11 @@ npm i express-constructor
 # How to use?
 
 1. Create a `routes.json` file specifying all your routes needed, like in the following example:
-```
+```json
   {
-    appName: {
-      root: "/",
-      routes: [
+    "appName": {
+      "root": "/",
+      "routes": [
         {
           "method": "path"
         }
@@ -36,7 +36,7 @@ constructor --port=customOptionalPort
 
 ## Routes samples
 Imagine you need an api where you'll be handling users session, and also, product prices. You may need something like this:
-```
+```json
   {
     "users": {
       "root": "users/",
@@ -45,7 +45,7 @@ Imagine you need an api where you'll be handling users session, and also, produc
           "post": "login/"
         },
         {
-          "post: "logout/"
+          "post": "logout/"
         }
       ]
     },
