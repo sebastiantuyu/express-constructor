@@ -1,13 +1,13 @@
 {
   "name": "express-constructor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Use express-constructor to built an API in seconds",
   "main": "bin/index.js",
   "scripts": {
     "express-constructor": "./bin/"
   },
   "bin": {
-    "constructor": "./bin/index.js"
+    "constructor": "bin/index.js"
   },
   "keywords": [],
   "author": "@sebastiantuyu",
@@ -15,5 +15,14 @@
   "dependencies": {
     "node-fetch": "^2.6.7",
     "terminal-kit": "^2.4.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastiantuyu/express-constructor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastiantuyu/express-constructor/issues"
+  },
+  "homepage": "https://github.com/sebastiantuyu/express-constructor#readme"
 }
