@@ -1,0 +1,19 @@
+{
+  "name": "express-constructor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "express-constructor": "./bin/"
+  },
+  "bin": {
+    "constructor": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "@sebastiantuyu",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "terminal-kit": "^2.4.0"
+  }
+}
