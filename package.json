@@ -1,6 +1,6 @@
 {
   "name": "express-constructor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use express-constructor to built an API in seconds",
   "main": "bin/index.js",
   "scripts": {
