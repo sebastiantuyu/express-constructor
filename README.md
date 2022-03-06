@@ -79,7 +79,13 @@ yourFolder
   └─────users
         │  index.js
         │  routes.js
-
-
 ```
 
+And that structure will have the following urls
+```
+  /users/login
+  /users/logout
+  ...
+  /products/get_all/
+  /products/:productId/
+```
