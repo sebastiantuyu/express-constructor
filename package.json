@@ -4,7 +4,8 @@
   "description": "Use express-constructor to built an API in seconds",
   "main": "bin/index.js",
   "scripts": {
-    "express-constructor": "./bin/"
+    "express-constructor": "./bin/",
+    "build": "tsc --project ."
   },
   "bin": {
     "constructor": "bin/index.js"
@@ -16,7 +17,11 @@
     "node-fetch": "^2.6.7",
     "terminal-kit": "^2.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "typescript": "^4.6.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sebastiantuyu/express-constructor.git"
