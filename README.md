@@ -2,6 +2,11 @@
 With `express-constructor` you can build faster any kind of API. You only need to specify the routes an that's it, we help you to generate the built in code that you need.
 
 
+# Roadmap
+Do not forget to check our roadmap, here we add all the features were working on at the moment. We appreciate all the help :)
+
+:rocket: [Open-roadmap](https://sebastiantuyu.notion.site/f2860a06ca10452f9c70e35f222c82fc?v=055504dee2034ac48dcaea01f2a188a1)
+
 ### Installation
 ```
 npm i express-constructor
